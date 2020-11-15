@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'TT Norms';
+    src: url('fonts/TTNorms-Regular.ttf');
+}
+
+body{
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
+    color: #353535;
+}
+
+button{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+p{
+    font-size: 14px;
+}
+
+body,input,select, button{
+    font-family: 'TT Norms';
+}
+
+/* filter devices */
+.filter_devices{
+    width: 325px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+}
+
+.filter_devices input{
+    width: 210px;
+    height: 30px;
+    padding: 0px 10px 0px 12px;
+    background: #FFF;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    margin: 21px 20px 0px 0px;
+}
+
+.filter_devices button{
+    width: 90px;
+    background: #353535;
+    }
+
+.filter_devices label{
+    color: #8C8C8C;
+}
+
+/*unit name*/
+.unit_name{
+    width: 325px;
+}
+
+.unit_name img{
+    height: 40px;
+    float: left;
+}
+
+.unit_name p{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    width: 225px;
+    margin-left: 60px;
+}
+
+/*unit_name_and_report_filters*/
+.unit_name_and_report_filters{
+    display: inline-block;
+    margin-right:75px;
+}
+
+/*report_filters*/
+.report_filters{
+    width: 220px;
+    margin-bottom: 46px;
+    
+}
+
+.report_filters select{
+    width: 100%;
+    margin-bottom: 19px;
+    height: 30px;
+    border: 1px solid #E9E9E9;
+    padding-left: 12px;
+    font-size: 16px;
+    
+}
+
+.report_filters p{
+    margin: 0px 0px 11px 0px;
+}
+
+.report_filters button{
+    width: 180px;
+    background: #4990E2;
+    margin-top: 50px;
+}
+
+/*device info*/
+.device_info{
+    display: inline-block;
+    max-width: 550px;
+    left: 400px;
+    top: 140px;
+    background: #F7F7F7;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 46px;
+}
+
+.device_info p{
+    margin:0px 0px 9px 0px;
+}
+
+.device_info mark{
+    color: #8C8C8C;
+    background-color: #F7F7F7;
+}
+
+.device_info p:nth-last-child(-n+3){
+    color:#4990E2;
+}
+
+/*calibration report*/
+.calib_report{
+    padding: 40px;
+    text-align: left;
+    
+    border: 1px dashed #939DA6;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+    font-size: 16px;
+    line-height: 19px;  
+    overflow-x: auto;
+}
+
+.calib_report caption{
+    text-align: left;
+    font-weight: bolder;
+    color:#000;
+}
+
+.calib_report th,td{
+    font-size: 13px;
+    line-height: 15px;
+    padding: 10px 20px 10px 0px;  
+}
+
+.calib_report th{
+    color: #939DA6;
+    font-weight: lighter;
+}
+
+.calib_report td{
+    border-bottom: 1px dashed #E9E9E9;
+    vertical-align: top;
+}
+
+.calib_report table{
+    border-collapse: collapse;
+    border-bottom: 2px solid white;
+    width: 100%;   
+}
+
+.calib_report td:first-child{
+    width: 100px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.calib_report td:nth-child(2){
+    min-width: 200px;
+    width: 200px;
+}
+
+.calib_report img{
+    margin-left: 25px;
+    vertical-align: middle;
+}
+
